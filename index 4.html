@@ -1,130 +1,154 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>GlowBella | Productos Digitales</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background-color: #ffffff;
-      color: #333;
-    }
-    header {
-      background: linear-gradient(135deg, #2ec4c6, #e0ffff);
-      text-align: center;
-      padding: 70px 20px;
-    }
-    header h1 {
-      font-size: 2.8rem;
-      margin-bottom: 10px;
-    }
-    header p {
-      font-size: 1.2rem;
-    }
-    section {
-      padding: 60px 20px;
-      max-width: 1100px;
-      margin: auto;
-    }
-    .products, .motivation {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
-    .card {
-      background: #fafafa;
-      border-radius: 14px;
-      padding: 25px;
-      box-shadow: 0 6px 15px rgba(0,0,0,0.08);
-      text-align: center;
-    }
-    .card h3 {
-      margin-bottom: 10px;
-    }
-    .card p {
-      font-size: 0.95rem;
-    }
-    .btn {
-      display: inline-block;
-      margin-top: 15px;
-      padding: 12px 26px;
-      background-color: #2ec4c6;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 30px;
-      font-weight: bold;
-      letter-spacing: 0.5px;
-    }
-    .btn:hover {
-      background-color: #1fa3a5;
-    }
-    footer {
-      background-color: #e0ffff;
-      text-align: center;
-      padding: 20px;
-      font-size: 0.9rem;
-    }
-  
-    .card img {
-      width: 100%;
-      border-radius: 12px;
-      margin-bottom: 15px;
-    }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GlowBella | Belleza y Bienestar Digital</title>
 
-  </style>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+body{
+  margin:0;
+  font-family:'Montserrat',sans-serif;
+  background:#ffffff;
+  color:#333;
+}
+header{
+  background:linear-gradient(135deg,#27cfcf,#7fffd4);
+  color:white;
+  text-align:center;
+  padding:90px 20px;
+}
+header h1{
+  font-family:'Playfair Display',serif;
+  font-size:3rem;
+  margin-bottom:15px;
+}
+header p{
+  font-size:1.2rem;
+  max-width:650px;
+  margin:0 auto 35px;
+}
+.btn{
+  background:white;
+  color:#27cfcf;
+  padding:15px 40px;
+  border-radius:40px;
+  text-decoration:none;
+  font-weight:600;
+  box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+.section{
+  padding:80px 20px;
+  text-align:center;
+}
+.section h2{
+  font-family:'Playfair Display',serif;
+  font-size:2.4rem;
+  margin-bottom:15px;
+}
+.section p{
+  max-width:650px;
+  margin:0 auto 50px;
+  font-size:1.05rem;
+}
+.products{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:40px;
+  max-width:1000px;
+  margin:0 auto;
+}
+.card{
+  background:white;
+  border-radius:20px;
+  box-shadow:0 15px 35px rgba(0,0,0,0.1);
+  padding:30px;
+}
+.card img{
+  width:100%;
+  border-radius:15px;
+  margin-bottom:20px;
+}
+.card h3{
+  font-family:'Playfair Display',serif;
+  font-size:1.6rem;
+  margin-bottom:10px;
+}
+.price{
+  font-size:1.4rem;
+  font-weight:600;
+  color:#27cfcf;
+  margin:15px 0;
+}
+.testimonials{
+  background:#f7fefe;
+}
+.testimonial{
+  max-width:700px;
+  margin:25px auto;
+  font-style:italic;
+}
+footer{
+  background:#27cfcf;
+  color:white;
+  text-align:center;
+  padding:30px 20px;
+  font-size:0.9rem;
+}
+@media(max-width:600px){
+  header h1{font-size:2.4rem;}
+}
+</style>
 </head>
+
 <body>
 
-  <header>
-    <h1>GlowBella</h1>
-    <p>Transforma tu piel y tu bienestar con métodos simples, digitales y efectivos</p>
-    <a href="#productos" class="btn">Acceder ahora</a>
-  </header>
+<header>
+<h1>GlowBella</h1>
+<p>Transforma tu piel y tu bienestar con programas digitales elegantes, simples y efectivos diseñados para mujeres que quieren brillar desde dentro.</p>
+<a href="https://go.hotmart.com/D103648512M" class="btn">Acceder ahora</a>
+</header>
 
-  <section id="productos">
-    <h2 style="text-align:center">Nuestros Productos Digitales</h2>
-    <div class="products">
-      <div class="card">
-        <img src="https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto=format&fit=crop&w=800&q=80" alt="Cuidado facial">
-        <h3>Glow Skin</h3>
-        <p>Aprende paso a paso cómo lograr una piel luminosa, sana y natural desde casa, con rutinas fáciles y comprobadas.</p>
-        <p><strong>15€</strong></p>
-        <a href="https://go.hotmart.com/D103648512M" class="btn">Acceder ahora</a>
-      </div>      <div class="card">
-        <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=800&q=80" alt="Bienestar y autocuidado">
-        <h3>Glow Mind</h3>
-        <p>Reprograma tu mente, eleva tu autoestima y crea hábitos de bienestar que transforman tu vida diaria.</p>
-        <p><strong>25€</strong></p>
-        <a href="https://go.hotmart.com/D103648512M" class="btn">Acceder ahora</a>
-        <a href="https://go.hotmart.com/F103655487G" class="btn">Ver programa bienestar</a>
-      </div>
-    </div>
-  </section>
+<section class="section">
+<h2>Nuestros Programas Digitales</h2>
+<p>Cuidado facial, bienestar emocional y motivación femenina para crear una versión más luminosa y segura de ti misma.</p>
 
-  <section>
-    <h2 style="text-align:center">Resultados reales de mujeres GlowBella</h2>
-    <div class="motivation">
-      <div class="card">
-        <p>“En pocas semanas noté mi piel más luminosa y aprendí a cuidarme sin complicaciones.”</p>
-        <strong>- Ana M.</strong>
-      </div>
-      <div class="card">
-        <p>“Este contenido me ayudó a crear hábitos y sentirme más segura conmigo misma.”</p>
-        <strong>- Laura G.</strong>
-      </div>
-      <div class="card">
-        <p>“Me dio claridad, motivación y resultados reales. Fue una de mis mejores decisiones.”</p>
-        <strong>- Camila R.</strong>
-      </div>
-    </div>
-  </section>
+<div class="products">
 
-  <footer>
-    <p>© 2026 GlowBella | Productos digitales</p>
-    <p>Compra segura • Acceso inmediato en Hotmart</p>
-  </footer>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9" alt="Cuidado facial">
+<h3>Glow Skin</h3>
+<p>Rutinas fáciles y naturales para lograr una piel sana, luminosa y cuidada desde casa.</p>
+<div class="price">15€</div>
+<a href="https://go.hotmart.com/D103648512M" class="btn">Acceder ahora</a>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773" alt="Bienestar y motivación">
+<h3>Glow Mind</h3>
+<p>Reprograma tu mente, fortalece tu autoestima y crea hábitos de bienestar duraderos.</p>
+<div class="price">25€</div>
+<a href="https://go.hotmart.com/D103648512M" class="btn">Acceder ahora</a><br><br>
+<a href="https://go.hotmart.com/F103655487G" class="btn">Ver programa bienestar</a>
+</div>
+
+</div>
+</section>
+
+<section class="section testimonials">
+<h2>Resultados reales de mujeres GlowBella</h2>
+<div class="testimonial">“En pocas semanas noté mi piel más luminosa y aprendí a cuidarme sin complicaciones.” – Ana M.</div>
+<div class="testimonial">“Este contenido me ayudó a crear hábitos y sentirme más segura conmigo misma.” – Laura G.</div>
+<div class="testimonial">“Me dio claridad, motivación y resultados reales. Fue una de mis mejores decisiones.” – Camila R.</div>
+</section>
+
+<footer>
+© 2026 GlowBella | Productos digitales<br>
+Compra segura • Acceso inmediato a través de Hotmart
+</footer>
 
 </body>
 </html>
+
